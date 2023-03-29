@@ -1,3 +1,0 @@
-/Users/artaleee/code/cpp/OOP/lab1/cmake-build-debug/CMakeFiles/lab1.dir
-/Users/artaleee/code/cpp/OOP/lab1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/artaleee/code/cpp/OOP/lab1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

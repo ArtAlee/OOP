@@ -1,0 +1,71 @@
+\doxysection{game\+::Component Class Reference}
+\label{classgame_1_1_component}\index{game::Component@{game::Component}}
+
+
+Base class of field\textquotesingle{}s elements.  
+
+
+
+
+{\ttfamily \#include $<$component.\+h$>$}
+
+Inheritance diagram for game\+::Component\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgame_1_1_component}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual Game\+Type \textbf{ get\+Type} ()
+\begin{DoxyCompactList}\small\item\em Type determinator. \end{DoxyCompactList}\item 
+\mbox{\label{classgame_1_1_component_a8f85843bb5972b40386d611792de48aa}} 
+{\bfseries Component} (size\+\_\+t x=0, size\+\_\+t y=0)
+\item 
+\mbox{\label{classgame_1_1_component_ad4c271bea7db455d14ca71298081d9c4}} 
+const \textbf{ Point} \& {\bfseries get\+Coordinate} () const
+\item 
+virtual void \textbf{ move} (\textbf{ Point} \&point)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{classgame_1_1_component_aa19fff7f8b0f1575a6eef71f09c460fe}} 
+\textbf{ Point} {\bfseries coordinate\+\_\+}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Base class of field\textquotesingle{}s elements. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{classgame_1_1_component_a1a5c33d2e851f23b58f942907b430176}} 
+\index{game::Component@{game::Component}!getType@{getType}}
+\index{getType@{getType}!game::Component@{game::Component}}
+\doxysubsubsection{getType()}
+{\footnotesize\ttfamily Game\+Type Component\+::get\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Type determinator. 
+
+
+
+Reimplemented in \textbf{ game\+::\+Wall} \doxyref{}{p.}{classgame_1_1_wall_a23f9208567a17277de82fa76ec41bb5d}, \textbf{ game\+::\+Platform} \doxyref{}{p.}{classgame_1_1_platform_af9ba6bc29affbe7c32496cef7b28d31a}, and \textbf{ game\+::\+Criminal} \doxyref{}{p.}{classgame_1_1_criminal_aeeeb104a31c06246f8cfac88a82b2956}.
+
+\mbox{\label{classgame_1_1_component_ae509ef67379d76bc4464bea724697e95}} 
+\index{game::Component@{game::Component}!move@{move}}
+\index{move@{move}!game::Component@{game::Component}}
+\doxysubsubsection{move()}
+{\footnotesize\ttfamily void Component\+::move (\begin{DoxyParamCaption}\item[{\textbf{ Point} \&}]{point }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Displacement on field
+\begin{DoxyItemize}
+\item Parameter point\+: destination 
+\end{DoxyItemize}
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/artaleee/code/cpp/test/lab4 — копия/classes/component.\+h\item 
+/\+Users/artaleee/code/cpp/test/lab4 — копия/classes/component.\+cpp\end{DoxyCompactItemize}

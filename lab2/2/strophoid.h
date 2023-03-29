@@ -25,7 +25,6 @@ namespace lab2{
 		double area()const;
 		double volumeSpin()const;
 		double asympArea()const;		
-
 		double area2()const;
 		void printA(std::ostream &os);
 
@@ -33,6 +32,9 @@ namespace lab2{
 
 
 }
-
+main () {
+	Strophoid a;
+	a.getA();
+}
 
 #endif

@@ -1041,3 +1041,7 @@ dkms.conf
 *.uf2
 # Raspberry Pi Pico disassembler file
 *.dis
+lab2/.DS_Store
+lab2/.DS_Store
+lab2/2/result
+lab2/2/testres

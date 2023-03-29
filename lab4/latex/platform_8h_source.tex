@@ -1,0 +1,32 @@
+\doxysection{platform.\+h}
+\label{platform_8h_source}\index{/Users/artaleee/code/cpp/test/lab4 — копия/classes/platform.h@{/Users/artaleee/code/cpp/test/lab4 — копия/classes/platform.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef platform\_h}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define platform\_h}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include "{}component.h"{}}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include "{}module.h"{}}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}List.cpp"{}}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{keyword}{namespace }game \{}
+\DoxyCodeLine{9 }
+\DoxyCodeLine{11 \textcolor{keyword}{class }Platform: \textcolor{keyword}{public} Component \{}
+\DoxyCodeLine{12 \textcolor{keyword}{public}:}
+\DoxyCodeLine{13     \textcolor{keywordtype}{size\_t} cap\_ = 3;}
+\DoxyCodeLine{14     \textcolor{keywordtype}{size\_t} size\_ = 0;}
+\DoxyCodeLine{15     \textcolor{keywordtype}{size\_t} energyLevel\_=10;}
+\DoxyCodeLine{16     List<std::shared\_ptr<Module>> modules\_;}
+\DoxyCodeLine{17     }
+\DoxyCodeLine{18     GameType getType()\textcolor{keyword}{override};}
+\DoxyCodeLine{19     Platform(\textcolor{keywordtype}{size\_t} cap=3);}
+\DoxyCodeLine{21     \textcolor{keywordtype}{void} setModule(std::shared\_ptr<Module> module);}
+\DoxyCodeLine{23     \textcolor{keywordtype}{void} removeModule();}
+\DoxyCodeLine{24     }
+\DoxyCodeLine{25 \};}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27 \}}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#endif }\textcolor{comment}{/* platform\_h */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

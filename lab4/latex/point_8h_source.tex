@@ -1,0 +1,36 @@
+\doxysection{point.\+h}
+\label{point_8h_source}\index{/Users/artaleee/code/cpp/test/lab4 — копия/classes/point.h@{/Users/artaleee/code/cpp/test/lab4 — копия/classes/point.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{//}}
+\DoxyCodeLine{2 \textcolor{comment}{//  point.h}}
+\DoxyCodeLine{3 \textcolor{comment}{//  lab4}}
+\DoxyCodeLine{4 \textcolor{comment}{//}}
+\DoxyCodeLine{5 \textcolor{comment}{//  Created by Artem Aleksenko on 30.11.2022.}}
+\DoxyCodeLine{6 \textcolor{comment}{//}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#ifndef point\_h}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#define point\_h}}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include <cmath>}}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14 \textcolor{keyword}{namespace }game\{}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16 \textcolor{keyword}{struct }Point \{}
+\DoxyCodeLine{17     \textcolor{keywordtype}{size\_t} row\_;}
+\DoxyCodeLine{18     \textcolor{keywordtype}{size\_t} col\_;}
+\DoxyCodeLine{19     Point(\textcolor{keywordtype}{size\_t} x=0, \textcolor{keywordtype}{size\_t} y=0) : row\_(x), col\_(y)\{\}}
+\DoxyCodeLine{21     \textcolor{keywordtype}{double} dist(Point b) \{}
+\DoxyCodeLine{22         \textcolor{keywordflow}{return} sqrt(pow((\textcolor{keywordtype}{int})(row\_-\/ b.row\_), 2) + pow((\textcolor{keywordtype}{int})(col\_-\/ b.col\_), 2));}
+\DoxyCodeLine{23     \}}
+\DoxyCodeLine{24     }
+\DoxyCodeLine{25 \};}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27 }
+\DoxyCodeLine{28 }
+\DoxyCodeLine{29 \}}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#endif }\textcolor{comment}{/* point\_h */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

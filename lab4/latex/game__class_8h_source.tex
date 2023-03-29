@@ -1,0 +1,49 @@
+\doxysection{game\+\_\+class.\+h}
+\label{game__class_8h_source}\index{/Users/artaleee/code/cpp/test/lab4 — копия/classes/game\_class.h@{/Users/artaleee/code/cpp/test/lab4 — копия/classes/game\_class.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{//}}
+\DoxyCodeLine{2 \textcolor{comment}{//  game\_classes.h}}
+\DoxyCodeLine{3 \textcolor{comment}{//  lab4}}
+\DoxyCodeLine{4 \textcolor{comment}{//}}
+\DoxyCodeLine{5 \textcolor{comment}{//  Created by Artem Aleksenko on 13.11.2022.}}
+\DoxyCodeLine{6 \textcolor{comment}{//}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#ifndef game\_classes\_h}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#define game\_classes\_h}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include "{}module.h"{}}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include "{}component.h"{}}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include "{}criminal.h"{}}}
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#include "{}field.h"{}}}
+\DoxyCodeLine{16 \textcolor{preprocessor}{\#include "{}point.h"{}}}
+\DoxyCodeLine{17 \textcolor{preprocessor}{\#include "{}platform.h"{}}}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19 \textcolor{keyword}{namespace }game\{}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21     }
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23 }
+\DoxyCodeLine{25 \textcolor{keyword}{class }Game\{}
+\DoxyCodeLine{26 \textcolor{keyword}{public}:}
+\DoxyCodeLine{27     Field field\_;}
+\DoxyCodeLine{28     std::shared\_ptr<Criminal> criminal\_;}
+\DoxyCodeLine{29     List<std::shared\_ptr<Network>> networks\_;}
+\DoxyCodeLine{30     }
+\DoxyCodeLine{32     Game();}
+\DoxyCodeLine{40     Game(\textcolor{keywordtype}{size\_t} fieldN, \textcolor{keywordtype}{size\_t} fieldM, std::vector<Point> platforms, std::vector<Point> walls, Point\& criminalPoint);}
+\DoxyCodeLine{41     Game(Field\& f);}
+\DoxyCodeLine{49     \textcolor{keywordtype}{void} platformProcess(Platform \&platform, Point \&point);}
+\DoxyCodeLine{51     \textcolor{keywordtype}{void} makeStep();}
+\DoxyCodeLine{52     \textcolor{keywordtype}{void} print();}
+\DoxyCodeLine{54     std::vector<std::shared\_ptr<Platform>> getPlatforms();}
+\DoxyCodeLine{57     \textcolor{keywordtype}{void} setNetwork(Point point, \textcolor{keywordtype}{size\_t} range=7);}
+\DoxyCodeLine{58     }
+\DoxyCodeLine{59 \};}
+\DoxyCodeLine{60 }
+\DoxyCodeLine{61 \}}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{63 \textcolor{preprocessor}{\#endif }\textcolor{comment}{/* game\_classes\_h */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

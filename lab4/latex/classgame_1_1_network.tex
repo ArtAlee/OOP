@@ -1,0 +1,71 @@
+\doxysection{game\+::Network Class Reference}
+\label{classgame_1_1_network}\index{game::Network@{game::Network}}
+
+
+\doxyref{Module}{p.}{classgame_1_1_module} that performs connection between sensors.  
+
+
+
+
+{\ttfamily \#include $<$module.\+h$>$}
+
+Inheritance diagram for game\+::Network\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgame_1_1_network}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{classgame_1_1_network_a420da1ffb5fd588badf228e6b0a158da}} 
+{\bfseries Network} (\textbf{ List}$<$ std\+::shared\+\_\+ptr$<$ \textbf{ Network} $>$ $>$ \&networks, int range)
+\item 
+\mbox{\label{classgame_1_1_network_a5ceca38220c61e5d5fb9f4a3901c53e7}} 
+{\bfseries Network} (\textbf{ List}$<$ std\+::shared\+\_\+ptr$<$ \textbf{ Network} $>$ $>$ \&networks)
+\item 
+\mbox{\label{classgame_1_1_network_a3fd9ccc93533ee8e8dba4ce1279a5f1d}} 
+\textbf{ List}$<$ std\+::shared\+\_\+ptr$<$ \textbf{ Network} $>$ $>$ \& {\bfseries get\+NConnections} ()
+\begin{DoxyCompactList}\small\item\em Returns list of all networks on the field. \end{DoxyCompactList}\item 
+\mbox{\label{classgame_1_1_network_a1ef954d0dfd897544ad42bb852f783e3}} 
+std\+::shared\+\_\+ptr$<$ \textbf{ Network} $>$ {\bfseries get\+Partner} ()
+\begin{DoxyCompactList}\small\item\em Finds nearest partner according to range of network. Returns nullptr if it doesn\textquotesingle{}t exists. \end{DoxyCompactList}\item 
+Module\+Type \textbf{ get\+Type} () override
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{classgame_1_1_network_a9c81a2870cf3c474873d05a619e5d242}} 
+\textbf{ List}$<$ std\+::shared\+\_\+ptr$<$ \textbf{ Network} $>$ $>$ \& {\bfseries networks\+\_\+}
+\item 
+\mbox{\label{classgame_1_1_network_acc6daa6061c4b58d4b344e61eff47d2a}} 
+size\+\_\+t {\bfseries area\+\_\+} =7
+\item 
+\mbox{\label{classgame_1_1_network_a6ed81ab99133a021b4d163caa31b2151}} 
+\textbf{ Point} {\bfseries coordinate\+\_\+}
+\item 
+\mbox{\label{classgame_1_1_network_a82d4744849a260cdc0618fed6534a0e9}} 
+std\+::shared\+\_\+ptr$<$ \textbf{ Sensor} $>$ {\bfseries sensor\+\_\+}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\doxyref{Module}{p.}{classgame_1_1_module} that performs connection between sensors. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{classgame_1_1_network_a551e14e5c235bad5b0dd9385e8558d60}} 
+\index{game::Network@{game::Network}!getType@{getType}}
+\index{getType@{getType}!game::Network@{game::Network}}
+\doxysubsubsection{getType()}
+{\footnotesize\ttfamily Module\+Type Network\+::get\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \textbf{ game\+::\+Module} \doxyref{}{p.}{classgame_1_1_module}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/artaleee/code/cpp/test/lab4 — копия/classes/module.\+h\item 
+/\+Users/artaleee/code/cpp/test/lab4 — копия/classes/module.\+cpp\end{DoxyCompactItemize}

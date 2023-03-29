@@ -1,0 +1,79 @@
+\doxysection{game\+::Field Class Reference}
+\label{classgame_1_1_field}\index{game::Field@{game::Field}}
+
+
+\doxyref{Game}{p.}{classgame_1_1_game} field, base element of game.  
+
+
+
+
+{\ttfamily \#include $<$field.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{classgame_1_1_field_a1a2ce57510ca8f5d49fe2d2d0549d333}} 
+{\bfseries Field} (size\+\_\+t n=10, size\+\_\+t m=10)
+\item 
+void \textbf{ move} (\textbf{ Point} \&a, \textbf{ Point} \&b)
+\item 
+\mbox{\label{classgame_1_1_field_a267b68f490e0ce0f18f7c42167527004}} 
+void {\bfseries move} (std\+::shared\+\_\+ptr$<$ \textbf{ Component} $>$ component, \textbf{ Point} \&b)
+\begin{DoxyCompactList}\small\item\em Moves given component to another position if it is possible. \end{DoxyCompactList}\item 
+\mbox{\label{classgame_1_1_field_a2d6990dca950726aeea435d698f06324}} 
+void {\bfseries add\+Platform} (\textbf{ Point} \&point, size\+\_\+t cap=3)
+\begin{DoxyCompactList}\small\item\em Adds platform to a field. \end{DoxyCompactList}\item 
+\mbox{\label{classgame_1_1_field_aec962dfea8a5a7e67c05a0623f94554c}} 
+void {\bfseries add\+Wall} (\textbf{ Point} \&point)
+\begin{DoxyCompactList}\small\item\em Adds wall to a field if it is possible. \end{DoxyCompactList}\item 
+\mbox{\label{classgame_1_1_field_a15eabf7909d2500d2b59b2627ce55360}} 
+void {\bfseries add\+Criminal} (\textbf{ Point} \&point, int health=100)
+\begin{DoxyCompactList}\small\item\em Adds criminal to a field if it is possible. \end{DoxyCompactList}\item 
+void \textbf{ remove} (\textbf{ Point} \&point)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{classgame_1_1_field_ad5db536379c62f43139f03c01ce20d5c}} 
+size\+\_\+t {\bfseries n\+\_\+}
+\item 
+\mbox{\label{classgame_1_1_field_a5b54c882e16e942807d86f5c8974698d}} 
+size\+\_\+t {\bfseries m\+\_\+}
+\item 
+\mbox{\label{classgame_1_1_field_aec2656335e56574cc17dc130594f9c4f}} 
+std\+::vector$<$ std\+::vector$<$ std\+::shared\+\_\+ptr$<$ \textbf{ Component} $>$ $>$ $>$ {\bfseries components\+\_\+}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\doxyref{Game}{p.}{classgame_1_1_game} field, base element of game. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{classgame_1_1_field_a7e57a32936d20c061acc9245cf6dcac3}} 
+\index{game::Field@{game::Field}!move@{move}}
+\index{move@{move}!game::Field@{game::Field}}
+\doxysubsubsection{move()}
+{\footnotesize\ttfamily void Field\+::move (\begin{DoxyParamCaption}\item[{\textbf{ Point} \&}]{a,  }\item[{\textbf{ Point} \&}]{b }\end{DoxyParamCaption})}
+
+Moves object in point a to point b if it is possible
+\begin{DoxyItemize}
+\item Parameters\+:
+\begin{DoxyItemize}
+\item a\+: departure point
+\item b\+: destination point 
+\end{DoxyItemize}
+\end{DoxyItemize}\mbox{\label{classgame_1_1_field_ae891241b2796faf7f0b6eb10b633a9f0}} 
+\index{game::Field@{game::Field}!remove@{remove}}
+\index{remove@{remove}!game::Field@{game::Field}}
+\doxysubsubsection{remove()}
+{\footnotesize\ttfamily void Field\+::remove (\begin{DoxyParamCaption}\item[{\textbf{ Point} \&}]{point }\end{DoxyParamCaption})}
+
+Removes component from a field
+\begin{DoxyItemize}
+\item Parameter point\+: coordinate of object to remove 
+\end{DoxyItemize}
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/artaleee/code/cpp/test/lab4 — копия/classes/field.\+h\item 
+/\+Users/artaleee/code/cpp/test/lab4 — копия/classes/field.\+cpp\end{DoxyCompactItemize}
