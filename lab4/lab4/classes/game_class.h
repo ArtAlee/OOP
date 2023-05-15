@@ -57,6 +57,7 @@ public:
     void setNetwork(Point point, size_t range=7);
     void criminalMover();
     void show();
+    void gameModify();
     
 };
 
