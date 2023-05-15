@@ -6,6 +6,9 @@ ehthumbs_vista.db
 # Dump file
 *.stackdump
 
+# xcode
+*.xcodeproj
+
 # Folder config file
 [Dd]esktop.ini
 
@@ -1048,3 +1051,4 @@ lab2/2/testres
 lab2/2/.DS_Store
 lab2/.DS_Store
 lab2/2/.DS_Store
+.vscode/tasks.json
